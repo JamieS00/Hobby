@@ -1,4 +1,6 @@
-https://hobby-vinyl.netlify.app/
+## Live Demo
+
+[View the Live Site ](https://hobby-vinyl.netlify.app/)
 
 ## **Overview**
 
@@ -6,9 +8,9 @@ This is a personal website showcasing some of my favorite vinyl records. The pro
 
 ## **Features**
 
-Showcase of Favorite Vinyls: Displays a selection of my favorite vinyl records.
-Dark Theme Toggle: A button that changes the entire page's theme for a different viewing experience.
-Subscription Form: A fun feature that prompts users to enter their name and email, with an alert message saying, "We will send you the link to the collection 🙂!!" (Note: This is a dummy function and does not send actual emails.)
+- Showcase of Favorite Vinyls: Displays a selection of my favorite vinyl records.
+- Dark Theme Toggle: A button that changes the entire page's theme for a different viewing experience.
+- Subscription Form: A fun feature that prompts users to enter their name and email, with an alert message saying, "We will send you the link to the collection 🙂!!" (Note: This is a dummy function and does not send actual emails.)
 
 ## **Technologies Used**
 
