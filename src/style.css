@@ -1,0 +1,141 @@
+body {
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+}
+.page-content {
+  background: white;
+  border-radius: 10px;
+  max-width: 600px; /*makes div white part look skinny*/
+  padding: 20px;
+  margin: 20px auto; /*space above dark them button*/
+}
+h1,
+h2 {
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  /* border-radius: 10px; */
+}
+
+.DarkTheme {
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+}
+
+.Theme-button {
+  display: block;
+  margin: 0 auto;
+
+  font-size: 12px;
+  background-color: black;
+  color: white; /* white text*/
+
+  padding: 5px 10px;
+  border: 1px solid rgb(190, 228, 210);
+  border-radius: 5px;
+}
+
+.Theme-button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.DarkTheme {
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 37, 84) 11.2%,
+    rgba(0, 37, 84, 0.32) 100.2%
+  );
+}
+
+/*we target class page content, a using attributes of darktheme*/
+.DarkTheme .page-content {
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 37, 84) 11.2%,
+    rgba(0, 37, 84, 0.32) 100.2%
+  );
+}
+.DarkTheme h1,
+.DarkTheme h2,
+.DarkTheme p,
+.DarkTheme footer {
+  color: white;
+}
+.DarkTheme a {
+  color: white;
+}
+
+.DarkTheme .sub-button:hover {
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 37, 84) 11.2%,
+    rgba(0, 37, 84, 0.32) 100.2%
+  );
+  color: white;
+}
+
+img {
+  max-width: 100%; /* doesnt go outside page*/
+  /* border-radius: 20px; */
+}
+
+.vict-intro {
+  display: block;
+  margin: 0 auto; /*center*/
+  border-radius: 10px;
+  transition: all 150ms ease-in-out; /*makes transition more smooth*/
+  /* background-color: white; */
+}
+.vict-intro:hover {
+  filter: contrast(90%); /*adding contrast of 90*/
+  transform: scale(1.3); /*makes img bigger when hover*/
+}
+
+img:hover {
+  display: block;
+  filter: contrast(90%); /*adding contrast of 90%*/
+  transform: scale(1.9); /*makes img bigger*/
+}
+.sub-button {
+  display: block;
+  margin: 0 auto;
+
+  background-color: white;
+  color: black; /* black text*/
+  font-size: 15px;
+
+  border: 1px solid #c3e0cf;
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.sub-button:hover {
+  cursor: pointer;
+  background-color: #c3e0cf;
+}
+footer {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+}
