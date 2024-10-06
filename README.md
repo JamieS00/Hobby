@@ -10,6 +10,7 @@ This is a personal website showcasing some of my favorite vinyl records. The pro
 
 - Showcase of Favorite Vinyls: Displays a selection of my favorite vinyl records.
 - Dark Theme Toggle: A button that changes the entire page's theme for a different viewing experience.
+- Clickable Images: Clicking on a vinyl record image redirects users to album's Wikipedia page.
 - Subscription Form: A fun feature that prompts users to enter their name and email, with an alert message saying, "We will send you the link to the collection 🙂!!" (Note: This is a dummy function and does not send actual emails.)
 
 ## **Technologies Used**
