@@ -12,9 +12,9 @@ Subscription Form: A fun feature that prompts users to enter their name and emai
 
 ## **Technologies Used**
 
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## **How to Use**
 
