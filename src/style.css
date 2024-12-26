@@ -10,7 +10,7 @@ body {
 .page-content {
   background: white;
   border-radius: 10px;
-  max-width: 600px; /*makes div white part look skinny*/
+  max-width: 500px; /*makes div white part look skinny*/
   padding: 20px;
   margin: 20px auto; /*space above dark them button*/
 }
@@ -21,7 +21,11 @@ h2 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  text-align: justify;
+  text-align: center;
+}
+a{
+  display: block;
+  text-align: center;
 }
 
 .grid {
@@ -42,6 +46,7 @@ p {
 .Theme-button {
   display: block;
   margin: 0 auto;
+  margin-top: 20px; 
 
   font-size: 12px;
   background-color: black;
